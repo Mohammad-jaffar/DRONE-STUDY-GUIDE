@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior Engineer Drone (R&D) – 15-Day Study Guide</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>✈️ Junior Engineer Drone (R&D)</h1>
+    <p>ESSCI Certification – Participant Handbook Study Guide</p>
+    <span class="badge">📅 15-Day Exam Prep Plan</span>
+  </header>
+
+  <nav>
+    <button onclick="show('plan', this)">📅 Study Plan</button>
+    <button onclick="show('modules', this)">📚 All Modules</button>
+    <button onclick="show('focus', this)">🎯 Priority Topics</button>
+    <button onclick="show('terms', this)">🔑 Key Terms</button>
+  </nav>
+
+  <div class="container">
+
+    <!-- STUDY PLAN -->
+    <div id="plan" class="section">
+      <h2 style="margin-bottom:16px; color:var(--primary)">📅 Your 15-Day Study Plan</h2>
+      <div class="focus-banner">
+        <div class="focus-icon">🚨</div>
+        <div class="focus-content">
+          <h3>Exam Focus</h3>
+          <p>The handbook covers 8 modules. Focus most time on <strong>Modules 2, 4, 6 & 8</strong> — these cover drone
+            working principles, electronics, assembly, and flight which are the most heavily tested areas.</p>
+        </div>
+      </div>
+      <div class="plan-grid">
+        <div class="day-card">
+          <div class="day-num">DAY 1</div>
+          <div class="day-title">Electronics Industry & Drone Overview</div><span class="day-tag study-day">Module
+            1</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 2</div>
+          <div class="day-title">Types of Drones & Applications</div><span class="day-tag study-day">Module 1</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 3</div>
+          <div class="day-title">Block Diagram & Working Principle</div><span class="day-tag study-day">Module 2
+            ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 4</div>
+          <div class="day-title">Quadcopter Dynamics (Pitch, Roll, Yaw)</div><span class="day-tag study-day">Module 2
+            ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 5</div>
+          <div class="day-title">Drone Components & Tools</div><span class="day-tag study-day">Module 3</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 6</div>
+          <div class="day-title">Electronic Circuits & Components</div><span class="day-tag study-day">Module 4 ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 7</div>
+          <div class="day-title">Motors, ESC, Flight Controllers</div><span class="day-tag study-day">Module 4 ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 8</div>
+          <div class="day-title">Sensors, IMU, GPS & Payload</div><span class="day-tag study-day">Module 4 ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 9</div>
+          <div class="day-title">Drone Software & Simulation</div><span class="day-tag study-day">Module 5</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 10</div>
+          <div class="day-title">Assembly, Testing & QC</div><span class="day-tag study-day">Module 6 ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 11</div>
+          <div class="day-title">Fixed Wing vs Multi-rotor</div><span class="day-tag study-day">Module 7</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 12</div>
+          <div class="day-title">Principles of Flight & Simulator</div><span class="day-tag study-day">Module 8 ⭐</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 13</div>
+          <div class="day-title">Modules 1–4 Revision</div><span class="day-tag revision-day">Revision</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 14</div>
+          <div class="day-title">Modules 5–8 Revision + Practice Q's</div><span
+            class="day-tag practice-day">Revision</span>
+        </div>
+        <div class="day-card">
+          <div class="day-num">DAY 15</div>
+          <div class="day-title">Full Revision & Key Terms</div><span class="day-tag final-day">🔥 Final Prep</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ALL MODULES -->
+    <div id="modules" class="section">
+      <h2 style="margin-bottom:16px; color:var(--primary)">📚 All 8 Modules – Detailed Breakdown</h2>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">1</div>
+          <h3>Research in the Field of Drones & Components</h3>
+          <span class="priority medium">Medium Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 1.1 – Electronics Industry Overview</h4>
+            <ul>
+              <li>Electronics industry: design, manufacture, assembly & servicing of electronic products</li>
+              <li>Key segments: Semiconductors, Industrial Equipment, Consumer Electronics, Medical, Telecom</li>
+              <li>India's top electronics export destinations: USA, UAE, Netherlands, UK, Italy (FY24 total: $29.12
+                billion, up 23.6%)</li>
+              <li>Trend: Shift from CFL/ILs → LED lighting; growth of EMS (Electronics Manufacturing Services)</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 1.2 – Types of Drones</h4>
+            <ul>
+              <li><strong>Fixed-Wing:</strong> Like airplanes, need forward motion to generate lift, long endurance</li>
+              <li><strong>Multi-Rotor:</strong> Most common; Quadcopter (4), Hexacopter (6), Octocopter (8)</li>
+              <li><strong>Single-Rotor:</strong> Like helicopters, complex, expensive, high maintenance</li>
+              <li><strong>Fixed-Wing Hybrid VTOL:</strong> Combines fixed wing + rotors — best of both worlds</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 1.3 – Opportunities & Trends</h4>
+            <ul>
+              <li>Applications: Photography, delivery, search & rescue, agriculture, surveillance, mapping</li>
+              <li>Emerging: Autonomous drones, AI/ML integration, Urban Air Mobility (UAM)</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 1.4 – Role of Drone Specialist</h4>
+            <ul>
+              <li>BOQ (Bill of Quantities) preparation, component sourcing, R&D activities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">2</div>
+          <h3>Study of Block Diagram of Drones ⭐</h3>
+          <span class="priority high">HIGH Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 2.1 – Functional Block Diagram & Dynamics</h4>
+            <ul>
+              <li><strong>Lift:</strong> Upward force against gravity; created by pressure difference across rotating
+                blades</li>
+              <li><strong>Thrust:</strong> Force for forward motion</li>
+              <li><strong>Drag:</strong> Air resistance opposing motion</li>
+              <li><strong>Weight:</strong> Downward gravitational force</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Quadcopter Movements – MUST KNOW</h4>
+            <ul>
+              <li><strong>Throttle/Hover:</strong> All 4 propellers at normal speed → descend; all at high speed →
+                ascend (hover)</li>
+              <li><strong>Pitch:</strong> Forward/backward movement about lateral axis. Rear props faster → forward;
+                Front props faster → backward</li>
+              <li><strong>Roll:</strong> Side-to-side movement about longitudinal axis</li>
+              <li><strong>Yaw:</strong> Rotation about vertical axis (clockwise/counter-clockwise)</li>
+            </ul>
+            <div class="tip-box"><strong>💡 Exam Tip:</strong> Diagonal motors spin in opposite directions to cancel
+              torque. CW and CCW propellers are paired diagonally.</div>
+          </div>
+          <div class="unit">
+            <h4>Kinematics Formulas</h4>
+            <ul>
+              <li>Thrust: F = k·ω² (proportional to square of angular velocity)</li>
+              <li>Mx = (F₁ - F₃) × L (Roll moment)</li>
+              <li>My = (F₂ - F₄) × L (Pitch moment)</li>
+              <li>Newton's 2nd Law: Force = mass × acceleration; Torque = Inertia × angular acceleration</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Major Drone Components</h4>
+            <ul>
+              <li>Frame, Propellers, Motors, ESC, Battery, Flight Controller, GPS, Sensors</li>
+              <li>Distribution Board (Power Distribution), Landing Gear, Control Station (Tx/Rx)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">3</div>
+          <h3>Required Constituents / Tools to Assemble a Drone</h3>
+          <span class="priority medium">Medium Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 3.1 – Components for Assembly</h4>
+            <ul>
+              <li><strong>Frame:</strong> Must be sturdy with low aerodynamic resistance; holds all components</li>
+              <li><strong>Propellers:</strong> Long props → more thrust, heavier loads, low RPM; Short props → less
+                load, fast response, high RPM</li>
+              <li><strong>Control Station:</strong> Radio transmitter + receiver, data management components, remote
+                control</li>
+              <li><strong>Landing Gear:</strong> Protects drone on landing, maintains ground clearance for payload</li>
+            </ul>
+          </div>
+          <div class="tip-box"><strong>💡 Exam Tip:</strong> Know the BOM (Bill of Materials) concept — identifying all
+            components needed before assembly.</div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">4</div>
+          <h3>Study of Drone Electronics / Circuits ⭐</h3>
+          <span class="priority high">HIGH Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 4.1 – Basic Electronic Components</h4>
+            <ul>
+              <li>5 types: Resistors, Capacitors, Transistors, Coils/Inductors, Diodes</li>
+              <li>Active components: Transistors, ICs (require power)</li>
+              <li>Passive components: Resistors, Capacitors, Inductors (don't require power)</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Motors – BLDC (Brushless DC)</h4>
+            <ul>
+              <li>Most drones use BLDC motors for efficiency, power, and longevity</li>
+              <li><strong>Motor Naming (e.g. 2213-935KV):</strong> 22 = stator width (mm), 13 = stator height (mm),
+                935KV = RPM per volt</li>
+              <li>Lower KV = more torque → larger props; Higher KV = more RPM → smaller props, racing drones</li>
+              <li>Motor spin: Diagonal pairs spin same direction; adjacent motors spin opposite</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>ESC – Electronic Speed Controller</h4>
+            <ul>
+              <li>Controls motor speed by converting DC battery power to 3-phase AC for BLDC motors</li>
+              <li>Works like a Variable Frequency Drive (VFD)</li>
+              <li>Types: Single ESC (one per motor) or 4-in-1 ESC (all on one board)</li>
+              <li>Modern protocols: DShot150, DShot300, DShot600 — faster, more reliable</li>
+              <li>Key specs: Current/voltage rating, firmware compatibility, ESC protocol</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Flight Controller – The Brain of Drone</h4>
+            <ul>
+              <li>Central hub connecting ESCs, GPS, Telemetry, RC Input, sensors</li>
+              <li>Must have: Gyroscope + Accelerometer (IMU) for auto-balance</li>
+              <li>Controlled by firmware (open source: ArduPilot, Betaflight; proprietary: DJI)</li>
+              <li>Popular boards: Pixhawk, Naze32, Revolution Revo</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Sensors</h4>
+            <ul>
+              <li><strong>Accelerometer:</strong> Measures acceleration on X, Y, Z axes; detects tilt. Static
+                horizontal: X=0g, Y=0g, Z=1g</li>
+              <li><strong>Gyroscope:</strong> Measures rotational speed/orientation</li>
+              <li><strong>IMU (Inertial Measurement Unit):</strong> Combines gyro + accelerometer</li>
+              <li><strong>Barometer:</strong> Altitude measurement via air pressure</li>
+              <li><strong>GPS:</strong> Position and navigation</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Thrust & Propeller Selection</h4>
+            <ul>
+              <li>Thrust-to-Weight (T/W) ratio of 2 recommended for stable flight</li>
+              <li>Propeller notation: e.g. 1045 = 10-inch diameter, 4.5-inch pitch</li>
+              <li>Total thrust = thrust per motor × number of motors</li>
+            </ul>
+            <div class="tip-box"><strong>💡 Exam Tip:</strong> T/W ratio of 2 means drone can carry payload equal to its
+              own weight while maintaining control.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">5</div>
+          <h3>Software Used in Drones</h3>
+          <span class="priority medium">Medium Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 5.1 – Drone Mapping & Design Software</h4>
+            <ul>
+              <li>GIS/Mapping: Used for aerial surveying and photogrammetry</li>
+              <li>Design: CAD software for drone frame prototyping</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 5.2 – Drone Simulation</h4>
+            <ul>
+              <li>MATLAB + UAV Toolbox: Industry standard for drone simulation</li>
+              <li>Allows testing flight algorithms before actual flight</li>
+              <li>Simulation helps understand drone dynamics without risk</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Software Bugs (Types to Know)</h4>
+            <ul>
+              <li>Functional bugs, Performance bugs, Security bugs (e.g. SQL injection)</li>
+              <li>Security bugs: High severity, must be handled with urgency</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">6</div>
+          <h3>Assembling, Testing & Quality Check ⭐</h3>
+          <span class="priority high">HIGH Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 6.1 – Drone Assembly</h4>
+            <ul>
+              <li>Assembly from BOM (Bill of Materials) using supplied drawings</li>
+              <li>Configuration and settings (flight controller calibration)</li>
+              <li>Battery charging procedures</li>
+              <li>Must practice with at least 2 types of drones</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 6.2 – Quality Check (QC)</h4>
+            <ul>
+              <li>Pre-dispatch QC: testing without payload AND with rated payload</li>
+              <li>Check: motor direction, propeller balance, ESC calibration</li>
+              <li>Verify all electrical connections, firmware flashed correctly</li>
+              <li>Deploy drone only after passing QC</li>
+            </ul>
+            <div class="tip-box"><strong>💡 Exam Tip:</strong> Know the sequence: Assemble → Configure → Charge
+              batteries → Test without payload → Test with payload → Deploy</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">7</div>
+          <h3>Types of Drones & Their Applications</h3>
+          <span class="priority medium">Medium Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 7.2 – Fixed Wing Drones</h4>
+            <ul>
+              <li>Need forward motion to generate lift (cannot hover)</li>
+              <li>Long endurance, large coverage area, ideal for mapping/surveying</li>
+              <li>Small fixed-wing: ~50 min endurance, ~80 miles range (e.g. Strix Nano Goblin)</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 7.3 – Applications by Type</h4>
+            <ul>
+              <li>Agriculture: Crop monitoring, pesticide spraying</li>
+              <li>Delivery: Packages in remote areas (e.g. Amazon, DHL)</li>
+              <li>Forest Fire: Infrared + video cameras for smoke detection</li>
+              <li>Surveillance: Airports, stadiums, public events</li>
+              <li>Search & Rescue, Medical delivery, LIDAR scanning</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 7.6 – Multi-Rotor Configurations</h4>
+            <ul>
+              <li>Trirotor (3), Quadcopter (4), Hexacopter (6), Octocopter (8)</li>
+              <li>Shapes: T-shape, Y-shape, Plus (+), X-shape</li>
+              <li>Single-Rotor: Helicopter-like, LIDAR, heavy payload; complex & expensive</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 7.7 – Fixed Wing vs Multi-Rotor Comparison</h4>
+            <ul>
+              <li>Fixed Wing: Longer flight time, greater range, needs runway/launch area</li>
+              <li>Multi-Rotor: VTOL capability (hover), better maneuverability, shorter flight time</li>
+              <li>Hybrid VTOL: Combines advantages of both</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)">
+          <div class="module-num">8</div>
+          <h3>Principles of Flying & Drone Simulator ⭐</h3>
+          <span class="priority high">HIGH Priority</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <div class="unit">
+            <h4>Unit 8.1 – Basic Principles of Flight</h4>
+            <ul>
+              <li><strong>Bernoulli's Principle:</strong> Faster airflow = lower pressure; creates lift over aerofoil
+              </li>
+              <li>Lift is created by pressure difference across rotating blades</li>
+              <li>4 Forces: Lift (up), Weight (down), Thrust (forward), Drag (backward)</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 8.2 – Applying to Drones</h4>
+            <ul>
+              <li>Propellers act as rotating aerofoils</li>
+              <li>Aerodynamics is same for fixed-wing and propeller-based aircraft</li>
+              <li>CFD (Computational Fluid Dynamics) used for aerodynamic design optimization</li>
+            </ul>
+          </div>
+          <div class="unit">
+            <h4>Unit 8.4 – Flight Operations</h4>
+            <ul>
+              <li>Pre-flight checks, ground operations, taxi procedures</li>
+              <li>Takeoff & Landing: Affected by wind direction, runway alignment</li>
+              <li>Flight maneuvers follow procedures to demonstrate aircraft performance</li>
+              <li>Key formula: <strong>Pitch-Power-Configuration-Trim</strong></li>
+              <li>Performance calculations are optimistic — real-world performance may vary</li>
+            </ul>
+          </div>
+          <div class="tip-box"><strong>💡 Exam Tip:</strong> CFD parameters: payload, number/speed of propellers,
+            propeller aerodynamics, spacing between propellers, lift coefficient, thrust generated.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRIORITY TOPICS -->
+    <div id="focus" class="section">
+      <h2 style="margin-bottom:16px; color:var(--primary)">🎯 Priority Topics for Exam</h2>
+
+      <div class="focus-banner">
+        <div class="focus-icon">🔴</div>
+        <div class="focus-content">
+          <h3>Must-Know Topics (High Chance in Exam)</h3>
+          <p>Master these first — they form the core of the Junior Engineer Drone (R&D) role</p>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)" style="background: #fff0f0;">
+          <div class="module-num" style="background:var(--red)">!</div>
+          <h3>🔴 Quadcopter Flight Dynamics — CRITICAL</h3>
+          <span class="priority high">Must Know</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <ul style="padding-left:20px; font-size:0.9rem; line-height:2;">
+            <li>Throttle, Pitch, Roll, Yaw — definitions and which propellers control each</li>
+            <li>Why propellers spin in opposite directions (torque cancellation)</li>
+            <li>Hover condition: all propellers equal speed, total thrust = weight</li>
+            <li>Forward motion: rear props faster than front props</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)" style="background: #fff0f0;">
+          <div class="module-num" style="background:var(--red)">!</div>
+          <h3>🔴 BLDC Motors & ESC — CRITICAL</h3>
+          <span class="priority high">Must Know</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <ul style="padding-left:20px; font-size:0.9rem; line-height:2;">
+            <li>KV rating = RPM per volt (NOT kilovolts)</li>
+            <li>Motor designation: stator width (mm) × stator height (mm)</li>
+            <li>ESC converts DC → 3-phase AC for BLDC motors</li>
+            <li>ESC protocols: DShot (150/300/600) — higher number = faster</li>
+            <li>4-in-1 ESC vs individual ESC trade-offs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)" style="background: #fff0f0;">
+          <div class="module-num" style="background:var(--red)">!</div>
+          <h3>🔴 Flight Controller & Sensors — CRITICAL</h3>
+          <span class="priority high">Must Know</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <ul style="padding-left:20px; font-size:0.9rem; line-height:2;">
+            <li>Flight controller = brain of drone (IMU, gyro, accelerometer minimum)</li>
+            <li>Accelerometer: static horizontal gives X=0g, Y=0g, Z=1g</li>
+            <li>IMU = Gyroscope + Accelerometer combined</li>
+            <li>Firmware types: open-source (ArduPilot, Betaflight) vs proprietary</li>
+            <li>Pixhawk is a popular open-source flight controller board</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)" style="background: #fffbf0;">
+          <div class="module-num" style="background:var(--yellow)">2</div>
+          <h3>🟡 Assembly & Quality Check — IMPORTANT</h3>
+          <span class="priority medium">Important</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <ul style="padding-left:20px; font-size:0.9rem; line-height:2;">
+            <li>Assembly sequence: Frame → Motors → ESC → FC → Battery → Props</li>
+            <li>Pre-dispatch QC without payload first, then with payload</li>
+            <li>T/W (Thrust-to-Weight) ratio minimum 2 for stable flight</li>
+            <li>BOM identification from engineering drawings</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="module">
+        <div class="module-header" onclick="toggle(this)" style="background: #fffbf0;">
+          <div class="module-num" style="background:var(--yellow)">3</div>
+          <h3>🟡 Bernoulli's Principle & Aerodynamics — IMPORTANT</h3>
+          <span class="priority medium">Important</span>
+          <span class="chevron">▾</span>
+        </div>
+        <div class="module-body">
+          <ul style="padding-left:20px; font-size:0.9rem; line-height:2;">
+            <li>Bernoulli's: faster air = lower pressure = lift</li>
+            <li>4 forces of flight: Lift, Weight, Thrust, Drag</li>
+            <li>CFD used to model and optimize drone aerodynamics</li>
+            <li>Propeller acts as rotating aerofoil</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- KEY TERMS -->
+    <div id="terms" class="section">
+      <h2 style="margin-bottom:16px; color:var(--primary)">🔑 Key Terms & Definitions</h2>
+      <div class="terms-grid">
+        <div class="term-card">
+          <dl>
+            <dt>UAV</dt>
+            <dd>Unmanned Aerial Vehicle — any drone/aircraft operated without a pilot on board</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>BLDC Motor</dt>
+            <dd>Brushless DC Motor — uses electronic commutation, high efficiency, long life, used in most drones</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>ESC</dt>
+            <dd>Electronic Speed Controller — converts DC power to 3-phase AC to control BLDC motor speed</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>IMU</dt>
+            <dd>Inertial Measurement Unit — combines gyroscope + accelerometer to measure orientation and motion</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>KV Rating</dt>
+            <dd>RPM per volt of input (e.g. 935KV motor at 2V = 1870 RPM). NOT kilovolts.</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Flight Controller</dt>
+            <dd>The central processing brain of the drone; manages all inputs and controls motors</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Throttle</dt>
+            <dd>Up/down movement — controlled by varying all motor speeds equally</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Pitch</dt>
+            <dd>Forward/backward movement about the lateral (side-to-side) axis</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Roll</dt>
+            <dd>Side-to-side tilting about the longitudinal (front-to-back) axis</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Yaw</dt>
+            <dd>Rotation about the vertical axis — turning left or right</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Bernoulli's Principle</dt>
+            <dd>Faster-moving air has lower pressure; the pressure difference creates lift over an aerofoil</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>CFD</dt>
+            <dd>Computational Fluid Dynamics — software simulation to predict airflow and optimize aerodynamic design
+            </dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Thrust-to-Weight (T/W)</dt>
+            <dd>Ratio of total thrust to drone weight. Minimum 2:1 recommended for stable, controllable flight</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>BOM</dt>
+            <dd>Bill of Materials — complete list of all components needed to build a drone</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>VTOL</dt>
+            <dd>Vertical Take-Off and Landing — ability to take off/land without a runway (multi-rotors, hybrid VTOL)
+            </dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Pixhawk</dt>
+            <dd>Popular open-source flight controller board supporting GPS, telemetry, multiple sensors</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>DShot</dt>
+            <dd>Digital ESC protocol (DShot150/300/600) — higher number = faster communication, better response</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Gyroscope</dt>
+            <dd>Sensor measuring rotational velocity/angular rate about each axis</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>Accelerometer</dt>
+            <dd>Measures linear acceleration and tilt angle; static hover: X=0g, Y=0g, Z=1g</dd>
+          </dl>
+        </div>
+        <div class="term-card">
+          <dl>
+            <dt>LIDAR</dt>
+            <dd>Light Detection and Ranging — sensor using laser pulses for 3D mapping; used in single-rotor drones</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-info">
+        <span class="footer-name">✦ Created by <strong>Mohammad Jaffar</strong> ✦</span>
+        <span class="footer-meta">© 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>
