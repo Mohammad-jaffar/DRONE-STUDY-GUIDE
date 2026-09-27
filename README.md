@@ -8,7 +8,7 @@ A clean, interactive 15-day exam preparation web page for the **ESSCI Junior Eng
 
 ## 🌐 Live Site
 
-🔗 [Click here to view the study guide](https://mohammadjaffarr.github.io/DRONE-STUDY-GUIDE/)
+🔗 [Click here to view the study guide]((https://mohammad-jaffar.github.io/DRONE-STUDY-GUIDE/))
 
 ---
 
